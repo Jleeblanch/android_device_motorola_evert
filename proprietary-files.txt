@@ -14,6 +14,29 @@ vendor/etc/acdbdata/idn/Hdmi_cal.acdb
 vendor/etc/acdbdata/idn/Headset_cal.acdb|6ac7e68e3794f9a2b73f37a516e29be178eba33f
 vendor/etc/acdbdata/idn/Speaker_cal.acdb
 
+# Audio - ADSPD
+vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service
+vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc
+vendor/lib/hw/audio.motvr.default.so
+vendor/lib/hw/sound_trigger.primary.default.so
+vendor/lib/libadspd.so
+vendor/lib/motorola.hardware.audio.adspd@1.0.so
+vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so
+vendor/lib/motorola.hardware.audio.adspd@1.0_vendor.so
+vendor/lib64/libadspd.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so
+
+# Audio - Prebuilt
+vendor/lib/libmotaudioutils.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib/libtinyalsa.so
+vendor/lib/libtinycompress.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/libunshorten.so
+vendor/lib64/libtinyalsa.so
+vendor/lib64/libtinycompress.so
+
 # Camera
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json

@@ -29,6 +29,9 @@ TARGET_SCREEN_DENSITY := 420
 BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/adspd.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
 
