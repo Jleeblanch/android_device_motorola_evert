@@ -33,7 +33,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.sdm660 \
+    audio.primary.sdm660_32 \
     libqcompostprocbundle
 
 PRODUCT_COPY_FILES += \
